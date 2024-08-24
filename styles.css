@@ -1,0 +1,20 @@
+#logoPato{
+    width: 120px;
+}
+.cuerpo{
+    display: flex;
+    flex-direction: space-between;
+}
+#encriptarTexto{
+    border: solid 2px black;
+    width: 680px;
+    height: 944px;
+    background-color: aquamarine;
+
+}
+#textoEncriptado{
+    border: solid 2px blue;
+    width: 400px;
+    height: 944px;
+    background-color: bisque;
+}   

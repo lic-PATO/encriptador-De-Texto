@@ -4,8 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Enciptador de texto</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <header>
+        <img id="logoPato" src="img/logoPato.jpg" alt="Logo de mr. PATO">
+    </header>
+    <main class="cuerpo">
+        <section id="encriptarTexto">
+            <textarea id="areaEncriptar" placeholder="Ingrese su texto aqui"></textarea>
+            <p>&#xF332; Solo letras minúsculas y sin acentos</p>
+            <div class="botones">
+                <button id="botonEncriptar">Encriptar</button>
+                <button id="botonDesencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section id="textoEncriptado">
+            <div id="areaEncriptada">
+                <img src="img/Muñeco.png" alt="muñeco con lupa">
+                <p>Ningún mensaje fue encontrado</p>
+                <p>Ingresa el texto que desees encriptar.</p>
+            </div>
+            <button id="botonCopiar">Copiar</button>
+        </section>
+    </main>
+    <footer>
+        <p>Manuel Rios.</p>
+        <p>Encuentrame en <a href="https://www.linkedin.com/in/manuel-rios-/" target="_blank">LinkeIn</a></p>
+    </footer>
 </body>
 </html>
