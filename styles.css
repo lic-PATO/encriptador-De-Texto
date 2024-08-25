@@ -1,20 +1,67 @@
 #logoPato{
     width: 120px;
+    margin: 40px 0 0 40px;
 }
 .cuerpo{
     display: flex;
     flex-direction: space-between;
+    align-items: center;
+    background-color: #ffffff;
 }
 #encriptarTexto{
-    border: solid 2px black;
+    margin: 80px 0 0 240px;
     width: 680px;
     height: 944px;
-    background-color: aquamarine;
 
 }
+#areaEncriptar{
+    
+    font-size: 32px;
+    font-family: "Inter"; 
+    justify-content: left;
+    color: #0A3871;
+    border: none;
+    background-color: #ffffff;
+    outline: none;
+    resize: none;
+    width: 680px;
+    height: 749px;
+}
+#signoAdvertencia{
+    width: 16px;
+}
+#mensajeAdvertencia{
+    display: flex;
+    flex-direction: space-between;
+    font-size: 12px;
+    color: #65747D;
+    font-family: "Inter";
+}
 #textoEncriptado{
-    border: solid 2px blue;
     width: 400px;
     height: 944px;
     background-color: bisque;
+    border-radius: 32px;
 }   
+.botonesIzquierda{
+    margin: 16px 0 0 0;
+   
+}
+#botonEncriptar{
+    margin: 0 24px 0 0;
+    width: 280px;
+    border-radius: 24px;
+    padding: 24px;
+    font-size: 16px;
+    background-color: #0A3871;
+    color: #ffffff;
+}
+#botonDesencriptar{
+    width: 280px;
+    padding: 24px;
+    border-radius: 24px;
+    font-size: 16px;
+    border-radius: solid 1px #0A3871;
+    color: #0A3871;
+    background-color: #D8DFE8;
+}

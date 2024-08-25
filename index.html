@@ -12,11 +12,15 @@
     </header>
     <main class="cuerpo">
         <section id="encriptarTexto">
-            <textarea id="areaEncriptar" placeholder="Ingrese su texto aqui"></textarea>
-            <p>&#xF332; Solo letras minúsculas y sin acentos</p>
+            <textarea id="areaEncriptar" >Ingrese su texto aquí</textarea> <!-- placeholder="Ingrese su texto aqui" -->
+            <div id="mensajeAdvertencia">
+                <img src="img/Vector.svg" alt="signo de advertencia" id="signoAdvertencia"><p> Solo letras minúsculas y sin acentos</p>
+            </div>
             <div class="botones">
-                <button id="botonEncriptar">Encriptar</button>
-                <button id="botonDesencriptar">Desencriptar</button>
+                <div class="botonesIzquierda">
+                    <button id="botonEncriptar"  class="botonAzul">Encriptar</button>
+                    <button id="botonDesencriptar" class="botonBlanco">Desencriptar</button>
+                </div>
             </div>
         </section>
         <section id="textoEncriptado">
@@ -25,7 +29,10 @@
                 <p>Ningún mensaje fue encontrado</p>
                 <p>Ingresa el texto que desees encriptar.</p>
             </div>
-            <button id="botonCopiar">Copiar</button>
+            <div class="botones">
+                <button id="botonCopiar"  class="botonBlanco">Copiar</button>
+            </div>
+            
         </section>
     </main>
     <footer>
