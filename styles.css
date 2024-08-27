@@ -123,7 +123,8 @@
    
 }
 #botonCopiar{
-    width: 336px;
+    display: none;
+    width: 300px;
     padding: 24px;
     border-radius: 24px;
     font-size: 16px;
@@ -134,4 +135,15 @@
     bottom: 32px;
     left: 32px;
     right: 32px;
+}
+#piePagina{
+    display: flex;
+    flex-direction: space-between;
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    color: #0A3871;
+    text-decoration: none;
+}
+#refLinkedin{
+    text-decoration: none;
 }
