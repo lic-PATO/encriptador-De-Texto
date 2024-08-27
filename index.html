@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Enciptador de texto</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="encriptarTexto.js"></script>
 </head>
 <body>
   
@@ -12,19 +13,20 @@
         <div id="derecha">
             <img id="logoPato" src="img/logoPato.jpg" alt="Logo de mr. PATO">
         <section id="encriptarTexto">
-            <textarea id="areaEncriptar" >Ingrese su texto aquí</textarea><!-- placeholder="Ingrese su texto aqui" -->
+            <textarea id="areaEncriptar" placeholder="Ingrese su texto aquí"></textarea><!-- placeholder="Ingrese su texto aqui" -->
             <div id="mensajeAdvertencia">
                 <img src="img/Vector.svg" alt="signo de advertencia" id="signoAdvertencia"><p> Solo letras minúsculas y sin acentos</p>
             </div>
             <div class="botones">
                 <div class="botonesIzquierda">
-                    <button id="botonEncriptar"  class="botonAzul">Encriptar</button>
+                    <button onclick="encripText()" id="botonEncriptar"  class="botonAzul">Encriptar</button>
                     <button id="botonDesencriptar" class="botonBlanco">Desencriptar</button>
                 </div>
             </div>
         </section>
         </div>
         <section id="textoEncriptado">
+            <p id="textoFinal"></p>
             <img id="munieco" src="img/Muñeco.png" alt="muñeco con lupa">
             <div id="mensajesInicio">
                 <p id="text1">Ningún mensaje fue encontrado</p>
